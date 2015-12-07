@@ -97,6 +97,7 @@ int main(int argc, char *argv[])
 			break;
 		case 'n':
 			node = atoi(optarg);
+			break;
 		case 'e':
 			incsysop = 0;
 			break;
